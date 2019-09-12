@@ -20,7 +20,7 @@ X = df_cancer.drop(['target'], axis=1)
 y = df_cancer['target']
 
 # Training
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.96, random_state=20)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.9896, random_state=20)
 
 X_train_min = X_train.min()
 X_train_max = X_train.max()
